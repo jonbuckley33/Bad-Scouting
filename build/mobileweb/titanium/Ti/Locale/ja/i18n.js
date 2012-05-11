@@ -1,0 +1,1 @@
+define({"home": "\u30db\u30fc\u30e0", "newWindow": "\u65b0\u3057\u3044\u30a6\u30a4\u30f3\u30c9", "openWindow": "\u65b0\u3057\u3044\u30a6\u30a4\u30f3\u30c9\u3092\u958b\u304f", "settings": "\u8a2d\u5b9a"});

@@ -1,0 +1,6 @@
+Logfile initialized
+[INFO] logfile = C:\Users\Jon Buckley\My Documents\Titanium Studio Workspace\Bad Scouting\build.log
+[DEBUG] C:\Users\Jon Buckley\AppData\Roaming\Titanium\mobilesdk\win32\2.0.1.GA2\android\builder.py simulator Bad Scouting C:\Program Files (x86)\Android\android-sdk C:\Users\Jon Buckley\My Documents\Titanium Studio Workspace\Bad Scouting com.badscouting.app 5 HVGA
+[INFO] Building Bad Scouting for Android ... one moment
+[ERROR] JDK version 'javac' is not recognized as an internal or external command,
+operable program or batch file. detected, but 1.6 is required
