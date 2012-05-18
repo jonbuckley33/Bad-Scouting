@@ -36,8 +36,7 @@ if (Ti.version < 1.8 ) {
 	}
 	
 	var SplashScreen = require('ui/common/SplashScreen');
-	SplashScreen.SplashScreen().open();
-
+	new SplashScreen().open();
 	//var ApplicationTabGroup = require('ui/common/ApplicationTabGroup');
 	//new ApplicationTabGroup().open();
 })();

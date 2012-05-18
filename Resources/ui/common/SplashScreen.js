@@ -7,7 +7,7 @@ var user;
 var buttonWidth = 100;
 
 function launchModule() {
-	textField.setValue("pressed!");
+	textField.setValue("pressed");
 	var tabs = new ApplicationTabGroup(new TeamsList());
 	tabs.open();
 }

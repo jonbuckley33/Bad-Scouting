@@ -6,22 +6,20 @@ var splashScreen;
 var user;
 var buttonWidth = 100;
 
-function SplashScreen() 
-{
-	
-	function launchModule() {
-		textField.setValue("pressed!");
-		var tabs = new ApplicationTabGroup(new TeamsList());
-		tabs.open();
-	}
-	
+function launchModule() {
+	textField.setValue("pressed");
+	var tabs = new ApplicationTabGroup(new TeamsList());
+	tabs.open();
+}
+
+function SplashScreen() {
+
 	splashScreen = Ti.UI.createWindow({
 		backgroundColor : 'orange',
 		layout : 'vertical'
 	});
 
-	if(user == "unknown" || user == null)
-	{
+	if(user == "unknown" || user == null) {
 		var pit = Ti.UI.createButton({
 			color : 'red',
 			title : L('Pit Crew'),
@@ -49,10 +47,10 @@ function SplashScreen()
 
 		/*pit.addEventListener('click',  launchModule());
 
-		scout.addEventListener('click', launchModule());
+		 scout.addEventListener('click', launchModule());
 
-		driver.addEventListener('click', launchModule());*/
-		
+		 driver.addEventListener('click', launchModule());*/
+
 		textField.setValue("waiting for press");
 
 		splashScreen.add(pit);
@@ -64,5 +62,5 @@ function SplashScreen()
 	return splashScreen;
 }
 
-module.exports.SplashScreen = SplashScreen;
+module.exports = SplashScreen;
 //module.exports.launchModule = launchModule;
